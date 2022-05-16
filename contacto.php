@@ -140,8 +140,8 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <!-- coded by Himic-->
-    <a href="https://api.whatsapp.com/send?phone=51989032838" class="btn-wsp btn-wsp " target="_blank">
-    <i class="icon fa-whatsapp"></i>
+    <a href="https://api.whatsapp.com/send?phone=51989032838" class=" btn-wsp " target="_blank">
+    <i class=" fa-whatsapp"></i>
     </a>
   </body>
 </html>

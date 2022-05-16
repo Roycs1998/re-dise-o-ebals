@@ -27,7 +27,7 @@
                   <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>RatherApp</span>
                   </p>
                 </div>
-                <div class="col-sm-6 col-md-4 text-md-right"><span>All rights reserved.</span> <span>Design&nbsp;by&nbsp;<a href="">EBALS</a></span>
+                <div class="col-sm-6 col-md-4 text-md-right"><span>Todos los derechos reservados.</span> <span>Design&nbsp;by&nbsp;<a href="">EBALS</a></span>
                 </div>
               </div>
             </div>

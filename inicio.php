@@ -54,49 +54,67 @@
         </section>
 
       </div>
+
       <!-- See all services-->
-      <section class="section section-sm section-first bg-default text-center" id="services">
+      <section class="section section-sm section-first seccion-fuerte bg-default text-center" id="services">
         <div class="container">
           <div class="row row-30 justify-content-center">
-            <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="images/index-1-415x592.png" alt="" width="415" height="592"/>
+            <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="images/senal-servicios.png" alt="" />
             </div>
             <div class="col-lg-7 col-xl-6">
               <div class="row row-30">
                 <div class="col-sm-6 wow fadeInRight">
                   <article class="box-icon-modern box-icon-modern-custom">
                     <div>
-                      <h3 class="box-icon-modern-big-title">What We Offer</h3>
-                      <div class="box-icon-modern-decor"></div><a class="button button-primary button-ujarak" href="#">View All Services</a>
+                      <h3 class="box-icon-modern-big-title">¿Qué ofrecemos?</h3>
+                      <div class="box-icon-modern-decor"></div><a class="button button-primary button-ujarak" href="#">Ver todos</a>
                     </div>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
                   <article class="box-icon-modern box-icon-modern-2">
                     <div class="box-icon-modern-icon linearicons-phone-in-out"></div>
-                    <h5 class="box-icon-modern-title"><a href="#">CORPORATE<br>SOLUTIONS</a></h5>
+                    <h5 class="box-icon-modern-title"><a href="#">Seguridad y salud en el trabajo</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Need specific software for your company? We are ready to develop it!</p>
+                    <p class="box-icon-modern-text">Actividad encaminada a promover y proteger la salud de los empleados.</p>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
                   <article class="box-icon-modern box-icon-modern-2">
                     <div class="box-icon-modern-icon linearicons-headset"></div>
-                    <h5 class="box-icon-modern-title"><a href="#">CALL CENTER<br>SOLUTIONS</a></h5>
+                    <h5 class="box-icon-modern-title"><a href="#">Salud Ocupacional</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Our experts provide custom products of any complexity for call centers.</p>
+                    <p class="box-icon-modern-text">Aumentar la productividad laboral y la confianza de los trabajadores hacia la empresa.</p>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
                   <article class="box-icon-modern box-icon-modern-2">
                     <div class="box-icon-modern-icon linearicons-outbox"></div>
-                    <h5 class="box-icon-modern-title"><a href="#">CLOUD<br>DEVELOPMENT</a></h5>
+                    <h5 class="box-icon-modern-title"><a href="#">Moniterio Ocupacional</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">We can also offer you reliable cloud development solutions.</p>
+                    <p class="box-icon-modern-text">Mejorar el clima laboral aumenta la eficiencia de los procesos y trabajadores.</p>
                   </article>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- Nuestros Clientes-->
+      <section class="section section-sm bg-default">
+        <div class="container">
+          <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
+          <h2 class="wow fadeInLeft">Nuestros Clientes</h2>
+              <div class="col-lg-6 col-xl-12 align-self-center">
+                <div class="row row-30 justify-content-center">
+                  
+                  <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#"><img src="images/clients-9-270x117.png" alt="" width="270" height="117"/></a></div>
+                  <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="images/clients-10-270x117.png" alt="" width="270" height="117"/></a></div>
+                  <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="images/clients-3-270x117.png" alt="" width="270" height="117"/></a></div>
+                  <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="images/clients-11-270x117.png" alt="" width="270" height="117"/></a></div>
+                </div>
+              </div>
         </div>
       </section>
 
@@ -246,7 +264,7 @@
         <div class="container">
           <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
             <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#">
-                <div id="particles-js"></div><span class="counter">10</span></a></div>
+                <div id="particles-js"></div><span class="counter">5</span></a></div>
             <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
               <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
                 <h3 class="title-decoration-lines-left">Years of Experience</h3>

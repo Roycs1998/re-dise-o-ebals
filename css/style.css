@@ -45,7 +45,10 @@ label {
 p {
 	margin: 0;
 }
-
+.seccion-fuerte{
+	background: rgb(2,31,89);
+	background: linear-gradient(31deg, rgba(2,31,89,1) 0%, rgba(240,81,45,1) 100%);
+}
 ul,
 ol {
 	list-style: none;
@@ -521,7 +524,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-creative-text {
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .section-fuerte {
@@ -810,7 +813,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic-text {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 992px) {
@@ -867,7 +870,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-leah-2 .box-icon-leah-count {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .box-icon-leah-2 .box-icon-leah-count::after {
@@ -920,7 +923,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-leah-text {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 * + .box-icon-leah-title {
@@ -1025,7 +1028,7 @@ a[href*='tel'], a[href*='mailto'] {
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 768px) {
@@ -1275,7 +1278,7 @@ a[href*='tel'], a[href*='mailto'] {
 .box-pricing-list > li {
 	text-indent: -25px;
 	padding-left: 25px;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .box-pricing-list > li::before {
@@ -1289,7 +1292,7 @@ a[href*='tel'], a[href*='mailto'] {
 	line-height: 1;
 	text-indent: 0;
 	font-family: "FontAwesome";
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .box-pricing-list > li.active {
@@ -1581,7 +1584,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-ruby-text {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	letter-spacing: .075em;
 }
 
@@ -2524,7 +2527,7 @@ hr {
 	padding: 0 16px;
 	font-size: 18px;
 	letter-spacing: .1em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	text-transform: uppercase;
 }
@@ -4218,7 +4221,7 @@ textarea.textarea-lg {
 }
 
 .form-label-disabled {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 [data-x-mode='true'] .form-label {
@@ -4399,7 +4402,7 @@ textarea.textarea-lg {
 	position: relative;
 	padding-left: 32px;
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	cursor: pointer;
 }
 
@@ -4629,7 +4632,7 @@ textarea.textarea-lg {
 
 .box-form .form-label span {
 	font-size: 12px;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .box-form textarea.form-input {
@@ -4666,7 +4669,7 @@ textarea.textarea-lg {
 }
 
 .box-form-text {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 576px) {
@@ -4734,7 +4737,7 @@ textarea.textarea-lg {
 
 .post-classic-comments .icon,
 .post-classic-time .icon {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .post-classic-comments > *,
@@ -4772,7 +4775,7 @@ textarea.textarea-lg {
 }
 
 .post-classic-author {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .post-classic-author a {
@@ -4934,7 +4937,7 @@ textarea.textarea-lg {
 
 .post-modern-text {
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 992px) {
@@ -5015,7 +5018,7 @@ textarea.textarea-lg {
 }
 
 .post-creative-author {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .post-creative-author a, .post-creative-author a:focus, .post-creative-author a:active {
@@ -5460,7 +5463,7 @@ textarea.textarea-lg {
 }
 
 .badge-white {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .badge-white > div {
@@ -5593,7 +5596,7 @@ textarea.textarea-lg {
 }
 
 .blog-post-tags a, .blog-post-tags a:focus, .blog-post-tags a:active {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .blog-post-tags a:hover {
@@ -5653,7 +5656,7 @@ textarea.textarea-lg {
 	letter-spacing: .075em;
 	text-transform: uppercase;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 * + .post-ruth-title {
@@ -6056,7 +6059,7 @@ textarea.textarea-lg {
 }
 
 .quote-nancy-status {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 992px) {
@@ -6261,7 +6264,7 @@ textarea.textarea-lg {
 .quote-minimal-cite {
 	line-height: 1.33;
 	font-weight: 400;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .quote-minimal-source {
@@ -6539,7 +6542,7 @@ textarea.textarea-lg {
 }
 
 .thumbnail-modern-subtitle {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 992px) {
@@ -7215,7 +7218,7 @@ textarea.textarea-lg {
 .project-navigation-arrow-next::before {
 	height: 2px;
 	width: 25px;
-	background-color: #9b9b9b;
+	background-color: var(--thm-suave);
 }
 
 .project-navigation-arrow-prev::after,
@@ -7245,7 +7248,7 @@ textarea.textarea-lg {
 
 .project-navigation-arrow-prev::after {
 	border-width: 4px 6px 4px 0;
-	border-color: transparent #9b9b9b transparent transparent;
+	border-color: transparent var(--thm-suave) transparent transparent;
 }
 
 .project-navigation-arrow-prev:hover {
@@ -7261,7 +7264,7 @@ textarea.textarea-lg {
 
 .project-navigation-arrow-next::after {
 	border-width: 4px 0 4px 6px;
-	border-color: transparent transparent transparent #9b9b9b;
+	border-color: transparent transparent transparent var(--thm-suave);
 }
 
 .project-navigation-arrow-next:hover {
@@ -7311,7 +7314,7 @@ textarea.textarea-lg {
 }
 
 .project-minimal-text {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 * + .project-minimal-title {
@@ -7700,7 +7703,7 @@ textarea.textarea-lg {
 
 .box-footer-2-text {
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 * + .box-footer-2-text {
@@ -8464,7 +8467,7 @@ textarea.textarea-lg {
 	font-size: 18px;
 	letter-spacing: .1em;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	text-transform: uppercase;
 	transition: all 300ms ease;
 }
@@ -8687,7 +8690,7 @@ textarea.textarea-lg {
 }
 
 .product-price-old {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	text-decoration: line-through;
 }
 
@@ -8961,7 +8964,7 @@ h5 + .list-popular-product {
 }
 
 .list-description li span:last-child {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .list-description li + li {
@@ -9019,7 +9022,7 @@ h5 + .list-popular-product {
 	max-height: 0;
 	opacity: 0;
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .radio-panel .radio-inline.active + .radio-panel-content {
@@ -9380,7 +9383,7 @@ h5 + .list-popular-product {
 }
 
 .product-big-reviews, .product-big-reviews:focus, .product-big-reviews:active {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .product-big-reviews:hover {
@@ -9389,7 +9392,7 @@ h5 + .list-popular-product {
 
 .product-big-text {
 	letter-spacing: .025em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .product-big-price-wrap {
@@ -10618,7 +10621,7 @@ html.boxed body {
 }
 
 .text-gray-500 {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .text-img {
@@ -10636,7 +10639,7 @@ html.boxed body {
 }
 
 .text-img:hover {
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (min-width: 576px) {
@@ -11891,7 +11894,7 @@ p.rights {
 	font-size: 14px;
 	letter-spacing: .025em;
 	font-weight: 500;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 p.rights a {
@@ -15335,7 +15338,7 @@ html.rd-navbar-fixed-linked .page-header {
 }
 
 .swiper-slide-caption {
-	background-color: #ffffff87;
+	background-color: #ffffffab;
 	width: 100%;
 	white-space: normal;
 }
@@ -15478,7 +15481,7 @@ html.rd-navbar-fixed-linked .page-header {
 @media (min-width: 1600px) {
 	.swiper-slider-classic {
 		max-width: 1920px;
-		padding: 0 75px;
+	
 	}
 }
 
@@ -15548,7 +15551,7 @@ html.rd-navbar-fixed-linked .page-header {
 	font-weight: 500;
 	letter-spacing: 0;
 	font-family: "Maven Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	transform: rotate(-90deg);
 }
 
@@ -16423,7 +16426,7 @@ h3 + .isotope-filters {
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	background: #ffffff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
 	transform: translate3d(-50%, 0, 0);
@@ -16683,7 +16686,7 @@ h3 + .isotope-filters {
 	margin: 0;
 	border-radius: 0;
 	border: 0;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -16821,7 +16824,7 @@ h1 + .tabs-line {
 	font-weight: 500;
 	line-height: 1;
 	letter-spacing: .1em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 	background: transparent;
 	text-align: center;
 	vertical-align: middle;
@@ -17168,7 +17171,7 @@ h1 + .tabs-line {
 
 .card-corporate .card-body {
 	padding: 25px 30px 30px 30px;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 @media (max-width: 575px) {
@@ -17484,7 +17487,7 @@ h1 + .tabs-line {
 .counter-amy-title {
 	font-weight: 400;
 	letter-spacing: .1em;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 * + .counter-amy-title {
@@ -18015,7 +18018,7 @@ h1 + .tabs-line {
 }
 
 .owl-dot::before {
-	background: #9b9b9b;
+	background: var(--thm-suave);
 	transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 
@@ -18236,7 +18239,7 @@ h1 + .tabs-line {
 }
 
 .owl-navbar .owl-dot:hover::before, .owl-navbar .owl-dot:focus::before {
-	background: #9b9b9b;
+	background: var(--thm-suave);
 }
 
 .owl-products .owl-dots {
@@ -20291,7 +20294,7 @@ disabled look for disabled choices in the results dropdown
 
 .modal-header .close:focus, .modal-header .close:hover {
 	opacity: 1;
-	color: #9b9b9b;
+	color: var(--thm-suave);
 }
 
 .modal-body {

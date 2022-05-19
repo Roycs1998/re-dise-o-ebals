@@ -9591,6 +9591,22 @@ h5 + .list-popular-product {
 	}
 }
 
+
+@media (max-width: 992px) {
+	ul li, ol li {
+		display: inline;
+	}
+	.rd-navbar-fixed .rd-nav-link {
+		display: block;
+		padding: 9px 56px 9px 18px;
+	}
+	.dropdown-menu.show {
+		display: contents;
+	}
+}
+.letra-20px > li > a{
+	font-size:20px !important;
+}
 .title-modern {
 	letter-spacing: .04em;
 	font-family: "Teko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

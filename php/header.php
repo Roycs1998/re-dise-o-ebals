@@ -26,9 +26,25 @@
                       <ul class="rd-navbar-nav">
                         <li class="rd-nav-item <?php echo $inicio; ?>"><a class="rd-nav-link" href="inicio">Inicio</a></li>
                         <li class="rd-nav-item <?php echo $nosotros; ?>"><a class="rd-nav-link" href="nosotros">Nosotros</a></li>
-                        <li class="rd-nav-item <?php echo $servicios; ?>"><a class="rd-nav-link" href="servicios">Servicios</a></li>
+                        <li class="rd-nav-item  nav-item dropdown <?php echo $servicios; ?>">
+                          <a class="rd-nav-link  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="servicios?tipo=seguridad">Seguridad en el Trabajo</a>
+                            <a class="dropdown-item" href="servicios?tipo=salud">Salud Ocupacional</a>
+                            
+                            <a class="dropdown-item" href="servicios?tipo=monitoreo">Monitoreo Ocupacional</a>
+                            <a class="dropdown-item" href="#">Sistema de Gestión</a>
+                            <a class="dropdown-item" href="#">Capacitación y Entrenamiento</a>
+                            <a class="dropdown-item" href="#">Homologación de Proveedores</a>
+                            <a class="dropdown-item" href="#">Auditoria</a>
+                            <a class="dropdown-item" href="#">Outsourcing</a>
+                          </div>
+                        </li>                        
                         <li class="rd-nav-item <?php echo $proyectos; ?>"><a class="rd-nav-link" href="proyectos">Proyectos</a></li>
                         <li class="rd-nav-item <?php echo $contacto; ?>"><a class="rd-nav-link" href="contacto">Cotización</a></li>
+
                         <li class="rd-nav-item <?php echo $inicio; ?>"><a class="rd-nav-link" href="blog">Blog</a></li>
                         
                       </ul>

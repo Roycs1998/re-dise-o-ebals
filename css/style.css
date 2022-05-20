@@ -1056,13 +1056,21 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-contacts-body {
+	min-height: 127px;
 	max-width: 250px;
 }
 
+.box-contacts-body-largo {
+	min-height: 163px;
+	max-width: 250px;
+}
 .box-contacts-icon {
 	font-size: 60px;
 	line-height: 1;
 	color: var(--thm-claro);
+}
+.alinear-centro{
+	text-align: -webkit-center;
 }
 .caja-contacto > h3 {   
 	padding-bottom: 10px;
@@ -9593,7 +9601,7 @@ h5 + .list-popular-product {
 
 
 @media (max-width: 992px) {
-	ul li, ol li {
+	.despliega li, .despliega li {
 		display: inline;
 	}
 	.rd-navbar-fixed .rd-nav-link {

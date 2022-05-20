@@ -23,7 +23,7 @@
                           <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
                         </ul>
                       </div>
-                      <ul class="rd-navbar-nav">
+                      <ul class="rd-navbar-nav despliega">
                         <li class="rd-nav-item <?php echo $inicio; ?>"><a class="rd-nav-link" href="inicio">Inicio</a></li>
                         <li class="rd-nav-item <?php echo $nosotros; ?>"><a class="rd-nav-link" href="nosotros">Nosotros</a></li>
                         <li class="rd-nav-item  nav-item dropdown <?php echo $servicios; ?>">
@@ -33,13 +33,12 @@
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="servicios?tipo=seguridad">Seguridad en el Trabajo</a>
                             <a class="dropdown-item" href="servicios?tipo=salud">Salud Ocupacional</a>
-                            
                             <a class="dropdown-item" href="servicios?tipo=monitoreo">Monitoreo Ocupacional</a>
-                            <a class="dropdown-item" href="#">Sistema de Gestión</a>
-                            <a class="dropdown-item" href="#">Capacitación y Entrenamiento</a>
-                            <a class="dropdown-item" href="#">Homologación de Proveedores</a>
-                            <a class="dropdown-item" href="#">Auditoria</a>
-                            <a class="dropdown-item" href="#">Outsourcing</a>
+                            <a class="dropdown-item" href="servicios?tipo=sistemas">Sistema de Gestión</a>
+                            <a class="dropdown-item" href="servicios?tipo=capacitacion">Capacitación y Entrenamiento</a>
+                            <a class="dropdown-item" href="servicios?tipo=homologacion">Homologación de Proveedores</a>
+                            <a class="dropdown-item" href="servicios?tipo=auditoria">Auditoria</a>
+                            <a class="dropdown-item" href="servicios?tipo=outsourcing">Outsourcing</a>
                           </div>
                         </li>                        
                         <li class="rd-nav-item <?php echo $proyectos; ?>"><a class="rd-nav-link" href="proyectos">Proyectos</a></li>

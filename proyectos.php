@@ -68,12 +68,15 @@
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure"><img src="images/capacitacion-online.png" alt="" width="420" height="350"/>
+                <div class="nombre-empresa-proyecto">
+                  <h4>CAJA AREQUIPA</h4> 
+                  <img class="tamano30" src="images/empresa_caja_arequipa.png" /> </div>
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/capacitacion-arequipa.png" data-lightgallery="item"><img src="images/capacitacion-online.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">CAJA AREQUIPA</br>CAPACITACIÓN ONLINE</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Capacitación Online</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Rubro: Financiera</br>Servicio: Capacitaciones Online</p>
+                  <p class="thumbnail-classic-text">Rubro: Financiera</p>
                 </div>
               </article>
             </div>

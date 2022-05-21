@@ -14,8 +14,8 @@
       </section>
 
     <!-- Resumen de Servicio-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <h2>Ley de Seguridad y Salud en el Trabajo</h2>
             <div class="col-lg-8 col-xl-8">
@@ -63,8 +63,8 @@
     </section>
 
 
-    <section class="section section-sm section-fluid bg-default text-center">
-        <div class="container-fluid"><h2>Trabajo de Alto Riesgo</h2>
+    <section class="section section-sm section-fluid bg-default text-left">
+        <div class="container"><h2>Trabajo de Alto Riesgo</h2>
         <div class="row row-30 justify-content-center">
           
             <div class="col-lg-7 col-xl-7">
@@ -117,8 +117,8 @@
         </div>
     </section>
 
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid"><h2>Entrenamiento a Brigadas</h2>
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container"><h2>Entrenamiento a Brigadas</h2>
         <div class="row row-30 justify-content-center">
           
             <div class="col-lg-7 col-xl-7">
@@ -181,8 +181,8 @@
         </div>
     </section>
 
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid"><h2>Capacitación en Minería</h2>
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container"><h2>Capacitación en Minería</h2>
         <div class="row row-30 justify-content-center">
           
             <div class="col-lg-7 col-xl-7">

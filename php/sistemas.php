@@ -1,3 +1,5 @@
+    
+    <!-- FINALIZADO 1RO-->
     <!-- TITULO-->
     <section class="section section bg-default">
             <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
@@ -15,8 +17,8 @@
     </section>
 
     <!-- Resumen de ISO 1-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
           <div class="row row-30 justify-content-center">
               <div class="col-lg-7 col-xl-7">
               <h2>Sistema de Gestión de Calidad ISO 9001: 2015</h2>
@@ -65,61 +67,67 @@
                         <li class="active">Relaciones mutuamente beneficiosas con el proveedor.</li>
                     </ul>
                 </div>
+
+                <div class="fases">
+                  <h3>Nuestro compromiso se basa en:</h3>
+                  <!-- Add class 'active' to progress -->
+                  <div class="row d-flex justify-content-center top">
+                      <div class="col-12">
+                        <ul id="progressbar" class="text-center">
+                            <li class="active step0"><h4>Fase 1</h4></li>
+                            <li class="active step0"><h4>Fase 2</h4></li>
+                            <li class="active step0"><h4>Fase 3</h4></li>
+                            <li class="active step0"><h4>Fase 4</h4></li>
+                            <li class="active step0"><h4>Fase 5</h4></li>
+                            
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="row justify-content-between top">
+                      
+                      <div class=" d-flex icon-content">
+                      
+                          <i class="icon_grande fa-solid fa-brain"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Diagnostico</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-gears"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Elaboración </br>de Documentos</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-chalkboard-user"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Implementación </br>de Sistema</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                        <i class="icon_grande fa-solid fa-book-open"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Auditorias internas</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-laptop-file"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Apoyo durante</br> certificación</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
     </section>
-    <!-- Resumen de FASES-->
-    <section class="section section-sm bg-default">
-        <div class="container">
-          <h2>Nuestro compromiso se basa en</h2>
-          <div class="row row-30 justify-content-center">
-
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro " style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 1</h3>
-                  <h4>Diagnostico</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 2</h3>
-                  <h4>Elaboración de Documentos</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 3</h3>
-                  <h4>Implementación del Sistema</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 4</h3>
-                  <h4>Auditorias internas</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 5</h3>
-                  <h4>Apoyo durante certificación</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-
-            
-          </div>
-        </div>
-    </section>
 
     <!-- Resumen de Servicio 2-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
           <div class="row row-30 justify-content-center">
               <div class="col-lg-7 col-xl-7">
               <h2>Sistema de Gestión Ambiental ISO 14001: 2015</h2>
@@ -176,8 +184,8 @@
 
 
     <!-- Resumen de Servicio 3 -->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
           <div class="row row-30 justify-content-center">
               <div class="col-lg-7 col-xl-7">
               <h2>Sistema de Gestión de Seguridad y Salud Ocupacional ISO 45001:2018</h2>
@@ -232,8 +240,8 @@
 </section>
 
     <!-- Resumen de Servicio 4 -->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
           <div class="row row-30 justify-content-center">
             <h2>ISO 37001:2016 Gestión Anti-Soborno</h2>
               <div class="col-lg-7 col-xl-7">        
@@ -246,54 +254,62 @@
               </div>
               <div class="col-md-7 col-lg-5 col-xl-5 text-lg-center wow fadeInUp"><img src="images/sistemas_4.jpg" alt="" width="415" height="592"/>
               </div>
+
+              <div class="fases">
+                  <h3>Conoce las etapas del proceso de Implementación del Sistema de Gestión Anti-Soborno:</h3>
+                  <!-- Add class 'active' to progress -->
+                  <div class="row d-flex justify-content-center top">
+                      <div class="col-12">
+                        <ul id="progressbar" class="text-center">
+                            <li class="active step0"><h4>Fase 1</h4></li>
+                            <li class="active step0"><h4>Fase 2</h4></li>
+                            <li class="active step0"><h4>Fase 3</h4></li>
+                            <li class="active step0"><h4>Fase 4</h4></li>
+                            <li class="active step0"><h4>Fase 5</h4></li>
+                            
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="row justify-content-between top">
+                      
+                      <div class=" d-flex icon-content">
+                      
+                          <i class="icon_grande fa-solid fa-brain"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Diagnóstico y </br>planificación</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-gears"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Diseño del</br> Sistema</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-chalkboard-user"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Implementación </br>del Sistema</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                        <i class="icon_grande fa-solid fa-book-open"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Auditoria </br>interna y revisión</p>
+                          </div>
+                      </div>
+                      <div class=" d-flex icon-content">
+                          <i class="icon_grande fa-solid fa-laptop-file"></i>
+                          <div class="d-flex flex-column">
+                              <p class="font-weight-bold">Acompañamiento </br>en la certificación</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+
           </div>
         </div>
     </section>
 
-    <!-- Resumen de FASES 2-->
-    <section class="section section-sm bg-default">
-        <div class="container">
-          <h2>Conoce las etapas del proceso de Implementación del Sistema de Gestión Anti-Soborno</h2>
-          <div class="row row-30 justify-content-center">
 
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 1</h3>
-                  <h4>Diagnóstico y planificación</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 2</h3>
-                  <h4>Diseño del Sistema</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-2 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 3</h3>
-                  <h4>Implementación del Sistema</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-3 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 4</h3>
-                  <h4>Auditoria interna y revisión</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-3 alinear-centro" style="width: 20%;">
-                <div class="box-contacts-body">
-                  <h3>Fase 5</h3>
-                  <h4>Acompañamiento en la certificación</h4>
-                </div>
-                <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-            </div>
-
-            
-          </div>
-        </div>
-    </section>
 

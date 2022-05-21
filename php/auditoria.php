@@ -1,3 +1,4 @@
+<!-- FINALIZADO 1RO 2-->
 <section class="section section bg-default">
         <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
           <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay" style="background:#f0512d;">

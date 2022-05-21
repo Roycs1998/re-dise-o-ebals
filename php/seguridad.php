@@ -14,8 +14,8 @@
       </section>
 
     <!-- Resumen de Servicio-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-lg-7 col-xl-7">
             <h2>¿Qué es el Sistema de Gestión de Seguridad y Salud en el trabajo?</h2>
@@ -67,7 +67,7 @@
             <div class="col-sm-8 col-md-6 col-lg-4">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-person-digging"></i>
                   <div class="box-contacts-decor"></div>
                   <h4>IMPLEMENTAR</h4>
                   <p class="box-contacts-link">
@@ -78,7 +78,7 @@
             <div class="col-sm-8 col-md-6 col-lg-4">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-arrows-rotate"></i>
                   <div class="box-contacts-decor"></div>
                   <p class="box-contacts-link">
                   <h4>ACTUALIZAR</h4>
@@ -90,7 +90,7 @@
             <div class="col-sm-8 col-md-6 col-lg-4">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-building-circle-check"></i>
                   <div class="box-contacts-decor"></div>
                   <h4>MANTENER</h4>
                   <p class="box-contacts-link">
@@ -101,7 +101,7 @@
             <div class="col-sm-8 col-md-6 col-lg-6">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-magnifying-glass"></i>
                   <div class="box-contacts-decor"></div>
                   <h4>INSPECCIONAR TU SST E INSTALACIONES</h4>
                   <p class="box-contacts-link">
@@ -112,7 +112,7 @@
             <div class="col-sm-8 col-md-6 col-lg-6">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-list-check"></i>
                   <div class="box-contacts-decor"></div>
                   <h4>AUDITAR TU SISTEMA DE GESTIÓN SST</h4>
                   <p class="box-contacts-link">
@@ -180,7 +180,6 @@
         </div>
     </section>
 
-
     <section class="section section-sm bg-default">
         <div class="container">
           <h2>FISCALIZACION DE SUNAFIL</h2>
@@ -194,7 +193,7 @@
             <div class="col-sm-8 col-md-6 col-lg-6">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-file-signature"></i>
                   <div class="box-contacts-decor"></div>
                   <h4>PREPARAR LA DOCUMENTACIÓN PARA PRESENTAR EN EL MINTRA ONLINE O FÍSICA</h4>
                   
@@ -204,7 +203,7 @@
             <div class="col-sm-8 col-md-6 col-lg-6">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
+                  <i class="icon_grande fa-solid fa-handshake-angle"></i>
                   <div class="box-contacts-decor"></div>
 
                   <h4>ACOMPAÑARTE EL DÍA DE LA COMPARECENCIA O RESPONDER ONLINE AL FISCALIZADOR</h4>
@@ -219,8 +218,8 @@
     </section>
 
 
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-lg-7 col-xl-7">
             <h2>¿Qué es el Sistema de Gestión de Seguridad y Salud en el trabajo?</h2>

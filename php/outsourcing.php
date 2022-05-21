@@ -23,7 +23,7 @@
                 <p>
                 Nuestros profesionales se encargan de liderar la gestión e implantación de los métodos y 
                 herramientas de mejora contínua de tu empresa. Se incorporan en tus instalaciones según tu 
-                requerimiento profesional como de apoyo realizando las siguientes tareas:     
+                requerimiento profesional.     
                 </p>
 
               </div>
@@ -32,7 +32,7 @@
               </div>
 
               <div class="col-lg-12 col-xl-12">
-                <h3>Nuestro auditor acreditado por MINTRA ofrece:</h3>
+                <h3>Apoyo realizando las siguientes tareas:</h3>
 
                 <dic class="row">
 

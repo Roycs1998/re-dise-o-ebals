@@ -6592,9 +6592,16 @@ textarea.textarea-lg {
 }
 
 .thumbnail-md {
-	max-width: 420px;
+	max-width: 370px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.thumbnail-classic-figure.centrar_objetos.text-center {
+    min-width: 370px;
+    border: solid 1px #021f5925;
+    margin: 10px 0 10px 0;
+	color: var(--thm-claro);
 }
 
 .thumbnail-lg {
@@ -6664,9 +6671,7 @@ textarea.textarea-lg {
 	color: var(--thm-claro);
 }
 
-.thumbnail-classic-title {
-	color: var(--thm-claro);
-}
+
 
 .thumbnail-classic-title a, .thumbnail-classic-title a:focus, .thumbnail-classic-title a:active {
 	color: inherit;

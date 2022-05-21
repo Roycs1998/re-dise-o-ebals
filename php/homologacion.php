@@ -14,8 +14,8 @@
 </section>
 
     <!-- Resumen de Servicio-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-lg-12 col-xl-12">
             <h2>¿Qué es la homologación de proveedores?</h2>
@@ -94,8 +94,8 @@
     </section>
 
 
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-lg-12 col-xl-12">
             <h2>Etapas en la homologación de proveedores</h2>

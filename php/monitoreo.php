@@ -14,8 +14,8 @@
       </section>
 
     <!-- Resumen de Servicio-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-        <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+        <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12 col-xl-12 text-lg-center wow fadeInUp">
             <h3>¿Sabías qué La Ley de Seguridad y Salud en el Trabajo obliga el cumplimiento 

@@ -474,19 +474,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "Este campo es requerido."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "El email no es valido."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Solo se aceptan números."
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Por favor elige una opción."
 				}
 			];
 
@@ -1101,12 +1101,12 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
-					'MF001': 'Recipients are not set!',
-					'MF002': 'Form will not work locally!',
-					'MF003': 'Please, define email field in your form!',
-					'MF004': 'Please, define type of your form!',
-					'MF254': 'Something went wrong with PHPMailer!',
+					'MF000': 'Se ha enviado correctamente!',
+					'MF001': 'Completa correctamente el formulario!',
+					'MF002': 'El formulario no funcionará localmente!',
+					'MF003': 'Por favor, Coloque su correo electrónico!',
+					'MF004': 'Por favor, Define el tipo de tu formulario!',
+					'MF254': 'No se pudo enviar!',
 					'MF255': 'Aw, snap! Something went wrong.'
 				};
 
@@ -1175,7 +1175,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Enviando</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -1443,10 +1443,7 @@
 			} )
 		}
 
-		// Google maps
-		if ( plugins.maps.length ) {
-			lazyInit( plugins.maps, initMaps );
-		}
+
 
 	} );
 }());

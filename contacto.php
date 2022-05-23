@@ -22,8 +22,7 @@
             <div class="container">
               <div class="row row-30 justify-content-end text-left">
                 <div class="col-sm-12">
-                  <h1 class="wow fadeInLeft">Contáctanos</h1>
-                  
+                  <h1 class="wow fadeInLeft">Contáctanos</h1>   
                 </div>
               </div>
             </div>
@@ -36,15 +35,15 @@
       <div class="container">
         <div class="row row-30 justify-content-center">
          <div class="col-lg-8 col-xl-8">
-            <article class="title-classic">
-            <div class="title-classic-title">
-              <h3>SOLICITA TU COTIZACIÓN</h3>
-            </div>
-            <div class="title-classic-text">
-              <p>Llena nuestro formulario para enviarte una propuesta detallada del servicio.</p>
-            </div>
-            </article>
-                <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                  <article class="title-classic">
+                  <div class="title-classic-title">
+                    <h3>SOLICITA TU COTIZACIÓN</h3>
+                  </div>
+                  <div class="title-classic-text">
+                    <p>Llena nuestro formulario para enviarte una propuesta detallada del servicio.</p>
+                  </div>
+                  </article>
+                <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/enviar-datos.php">
                   <div class="row row-14 gutters-14">
                     <div class="col-md-4">
                       <div class="form-wrap">
@@ -80,13 +79,10 @@
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
                       <h4>CELULAR</h4>
                       <article class="contacto-estilo">
-                        
                         <div class="box-contacts-icon-fila fl-bigmug-line-cellphone55"></div>
                         <div class="texto-contacto">
                           <p class="box-contacts-link"><a href="tel:+51957404672">+51 957404672</a> / <a href="tel:+51981453402">+51 981453402</a></p>
-                          
                         </div>
-                        
                       </article>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
@@ -104,21 +100,15 @@
                         <div class="box-contacts-icon-fila fl-bigmug-line-chat55"></div>
                         <div class="texto-contacto">
                           <p class="box-contacts-link"><a href="mailto:ebelin@ebalsconsultores.com">ebelin@ebalsconsultores.com</a></p>
-                          
                         </div>
                       </article>
                     </div>
                   </div>
                 </div>
           </div>
-
         </div>
-
       </div>
     </section>
-
-
-
 
     <section class="section">
         <div class="google-map">
@@ -126,11 +116,9 @@
            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
       <!-- Page Footer-->
       <?php include('php/footer.php');?>
-
-      
-
     </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
@@ -138,6 +126,5 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <!-- coded by Himic-->
-
   </body>
 </html>

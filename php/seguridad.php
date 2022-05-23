@@ -71,7 +71,7 @@
                   <div class="box-contacts-decor"></div>
                   <h4>IMPLEMENTAR</h4>
                   <p class="box-contacts-link">
-                    Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
+                  Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
                 </div>
               </article>
             </div>
@@ -83,7 +83,7 @@
                   <p class="box-contacts-link">
                   <h4>ACTUALIZAR</h4>
                   <p class="box-contacts-link">
-                    Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
+                  Constantemente estamos adaptandonos a las normas.</p>
                 </div>
               </article>
             </div>
@@ -94,7 +94,7 @@
                   <div class="box-contacts-decor"></div>
                   <h4>MANTENER</h4>
                   <p class="box-contacts-link">
-                    Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
+                  Nos encargamos del cumplimiento de tu Plan Anual de SST mes a mes.</p>
                 </div>
               </article>
             </div>
@@ -105,7 +105,7 @@
                   <div class="box-contacts-decor"></div>
                   <h4>INSPECCIONAR TU SST E INSTALACIONES</h4>
                   <p class="box-contacts-link">
-                    Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
+                  Realizamos visitas a tus instalaciones y verificamos el cumplimiento de la normativas. Detectamos y prevenimos riesgos laborales.</p>
                 </div>
               </article>
             </div>
@@ -116,7 +116,7 @@
                   <div class="box-contacts-decor"></div>
                   <h4>AUDITAR TU SISTEMA DE GESTIÓN SST</h4>
                   <p class="box-contacts-link">
-                    Nuestro equipo lo realiza desde cero, en plazos eficaces y rápidos.</p>
+                  Visitamos tu empresa y simulamos una auditoría de Inspector del Ministerio, a fin de que estén preparados ante la visita de SUNAFIL.</p>
                 </div>
               </article>
             </div>
@@ -217,22 +217,3 @@
         </div>
     </section>
 
-
-    <section class="section section-sm section-fluid bg-default text-left" id="projects">
-        <div class="container">
-        <div class="row row-30 justify-content-center">
-            <div class="col-lg-7 col-xl-7">
-            <h2>¿Qué es el Sistema de Gestión de Seguridad y Salud en el trabajo?</h2>
-            <p>
-            Está establecida por la Ley 29783 establece los requisitos para implementar un correcto sistema de gestión de Seguridad y Salud en el Trabajo (SST); el incumplimiento de la misma, conlleva a sanciones desde 50UIT a 300 UIT. 
-            La Ley es aplicable a todos los sectores económicos y de servicios; el objetivo es crear una cultura de prevención de riesgos laborales en base al dinamismo y compromiso de trabajadores y empleadores.
-            La omisión o incumplimiento de esta ley por las organizaciones, este sujeto a multas, sanciones y cierres por entidades como Sunafil y el Ministerio de Trabajo.
-            </p>
-            </div>
-            <div class="col-md-7 col-lg-5 col-xl-5 text-lg-center wow fadeInUp"><img src="images/index-1-415x592.png" alt="" width="415" height="592"/>
-            </div>
-
-        </div>
-
-        </div>
-    </section>

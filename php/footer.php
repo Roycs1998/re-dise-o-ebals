@@ -34,6 +34,6 @@
           </div>
         </div>
       </footer>
-      <a href="https://api.whatsapp.com/send?phone=51989032838" class=" btn-wsp " target="_blank">
+      <a href="https://web.whatsapp.com/send?phone=51989032838&text=Hola%20vengo%20de%20la%20web,%20quisiera%20más%20información%20sobre%20el%20servicio%20de%20consultoria." class="btn-wsp" target="_blank">
     <i class=" fa-whatsapp"></i>
     </a>

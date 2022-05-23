@@ -40,7 +40,7 @@
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-classic thumbnail-md caja_objetos  min-alto-230px">
                           <div class="thumbnail-classic-figure centrar_objetos  text-center">
-                          <i class="icon_muy_grande fa-solid fa-helmet-safety"></i>
+                          <i class="icon_grande fa-solid fa-circle-exclamation"></i>
                           
                           <h4 class="thumbnail-classic-title">Prevencionista de Riesgo</h4>
                           
@@ -59,7 +59,7 @@
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-classic thumbnail-md caja_objetos  min-alto-230px">
                           <div class="thumbnail-classic-figure centrar_objetos  text-center">
-                          <i class="icon_muy_grande fa-solid fa-helmet-safety"></i>
+                          <i class="icon_grande fa-solid fa-shield-heart"></i>
                           
                           <h4 class="thumbnail-classic-title">Consultor de Seguridad y Salud</h4>
                           
@@ -77,7 +77,7 @@
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-classic thumbnail-md caja_objetos  min-alto-230px">
                           <div class="thumbnail-classic-figure centrar_objetos  text-center">
-                          <i class="icon_muy_grande fa-solid fa-helmet-safety"></i>
+                          <i class="icon_grande fa-solid fa-user-doctor"></i>
                           
                           <h4 class="thumbnail-classic-title">Médico Ocupacional</h4>
                           
@@ -95,7 +95,7 @@
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-classic thumbnail-md caja_objetos  min-alto-230px">
                           <div class="thumbnail-classic-figure centrar_objetos  text-center">
-                          <i class="icon_muy_grande fa-solid fa-helmet-safety"></i>
+                          <i class="icon_grande fa-solid fa-user-tie"></i>
                           
                           <h4 class="thumbnail-classic-title">Consultor de Sistemas Integrados</h4>
                           
@@ -113,7 +113,7 @@
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-classic thumbnail-md caja_objetos  min-alto-230px">
                           <div class="thumbnail-classic-figure centrar_objetos  text-center">
-                          <i class="icon_muy_grande fa-solid fa-helmet-safety"></i>
+                          <i class="icon_grande fa-solid fa-diagram-project"></i>
                           
                           <h4 class="thumbnail-classic-title">Consultor de BPM, HACCAP, GLOBAL G.A.P</h4>
                           

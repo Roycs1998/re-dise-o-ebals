@@ -17,12 +17,12 @@
       </div>
     <!-- Cta-->
     <section class="section section bg-default">
-        <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
-          <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
+        <div class="parallax-container" >
+          <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay background_naranja">
             <div class="container">
               <div class="row row-30 justify-content-end text-left">
                 <div class="col-sm-12">
-                  <h1 class="wow fadeInLeft">Contactanos</h1>
+                  <h1 class="wow fadeInLeft">Contáctanos</h1>
                   
                 </div>
               </div>
@@ -32,8 +32,8 @@
       </section>
 
     <!-- Resumen de Servicio-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-      <div class="container-fluid">
+    <section class="section section-sm section-fluid bg-default text-left" id="projects">
+      <div class="container">
         <div class="row row-30 justify-content-center">
          <div class="col-lg-8 col-xl-8">
             <article class="title-classic">
@@ -74,23 +74,23 @@
                   <button class="button button-primary button-pipaluk" type="submit">Enviar</button>
                 </form>
           </div>
-          <div class="col-md-4 col-lg-4 col-xl-4 text-lg-center wow fadeInUp">
+          <div class="col-md-4 col-lg-4 col-xl-4  wow fadeInUp">
                 <div class="container">
                   <div class="row row-30 justify-content-center">
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
-                      <h3>CELULAR</h3>
+                      <h4>CELULAR</h4>
                       <article class="contacto-estilo">
                         
                         <div class="box-contacts-icon-fila fl-bigmug-line-cellphone55"></div>
                         <div class="texto-contacto">
-                          <p class="box-contacts-link"><a href="tel:#"> +1 323-913-4688</a> / <a href="tel:#">+1 323-888-4554</a></p>
+                          <p class="box-contacts-link"><a href="tel:+51957404672">+51 957404672</a> / <a href="tel:+51981453402">+51 981453402</a></p>
                           
                         </div>
                         
                       </article>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
-                      <h3>DIRECCIÓN</h3>
+                      <h4>DIRECCIÓN</h4>
                       <article class="contacto-estilo">
                         <div class="box-contacts-icon-fila fl-bigmug-line-up104"></div>
                         <div class="texto-contacto">
@@ -99,11 +99,11 @@
                       </article>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
-                      <h3>CORREO ELECTRÓNICO</h3>
+                      <h4>CORREO ELECTRÓNICO</h4>
                       <article class="contacto-estilo">
                         <div class="box-contacts-icon-fila fl-bigmug-line-chat55"></div>
                         <div class="texto-contacto">
-                          <p class="box-contacts-link"><a href="mailto:#">ebelin@ebalsconsultores.com</a></p>
+                          <p class="box-contacts-link"><a href="mailto:ebelin@ebalsconsultores.com">ebelin@ebalsconsultores.com</a></p>
                           
                         </div>
                       </article>
@@ -121,12 +121,10 @@
 
 
     <section class="section">
-          <div class="google-map-container" data-center="6036 Richmond hwy., Alexandria, VA, 2230" data-zoom="5" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.business&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b4d4e1&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]">
-            <div class="google-map"></div>
-            <ul class="google-map-markers">
-              <li data-location="6036 Richmond hwy., Alexandria, VA, 2230" data-description="6036 Richmond hwy., Alexandria, VA, 2230" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-            </ul>
-          </div>
+        <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.3045516563077!2d-77.02858800000001!3d-12.097209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c868bd340ee1%3A0x14e3b337b0d072f1!2sC.%20las%20Camelias%20790%2C%20San%20Isidro%2015046!5e0!3m2!1ses-419!2spe!4v1653337814802!5m2!1ses-419!2spe"
+           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
       <!-- Page Footer-->
       <?php include('php/footer.php');?>

@@ -52,7 +52,6 @@
                         <a class="button button-white-outline button-ujarak" href="#"  data-toggle="modal">MEDIO DÍA</br>4 HORAS</a>
                         <a class="button button-primary button-ujarak" href="#" data-toggle="modal">POR DÍA</br>2 HORAS</a>
                         <a class="button button-white-outline button-ujarak" href="#"  data-toggle="modal">POR DÍA</br>1 HORA</a>
-
                         </div>
 
                 </div>

@@ -3,11 +3,12 @@
           <div class="container-fluid">
             <div class="footer-minimal-inset oh">
               <ul class="footer-list-category-2">
-                <li><a href="#">UI Design</a></li>
-                <li><a href="#">Windows/Mac OS Apps</a></li>
-                <li><a href="#">Android/iOS Apps</a></li>
-                <li><a href="#">Cloud Solutions</a></li>
-                <li><a href="#">Customer Support</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link" href="inicio">Inicio</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link" href="nosotros">Nosotros</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link" href="servicios">Servicios</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link" href="proyectos">Proyectos</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link"   href="contacto">Contactanos</a></li>
+                <li class="rd-nav-item "><a class="rd-nav-link" href="blog">Blog</a></li>
               </ul>
             </div>
             <div class="footer-minimal-bottom-panel text-sm-left">
@@ -15,10 +16,10 @@
                 <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
                   <div>
                     <ul class="list-inline list-inline-sm footer-social-list-2">
-                      <li><a class="icon fa fa-facebook" href="#"></a></li>
-                      <li><a class="icon fa fa-twitter" href="#"></a></li>
-                      <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                      <li><a class="icon fa fa-instagram" href="#"></a></li>
+                      <li><a class="icon fa fa-facebook" href="https://www.facebook.com/ebalsconsultoressst"></a></li>
+                      <li><a class="icon fa fa-twitter" href="https://www.linkedin.com/company/ebalsconsultoria/"></a></li>
+                      <li><a class="icon fa fa-youtube" href="https://www.youtube.com/channel/UCbidtbuBCL4x7oI-H5yAxJg"></a></li>
+                      <li><a class="icon fa fa-instagram" href="https://www.instagram.com/ebals_consultores/"></a></li>
                     </ul>
                   </div>
                 </div>

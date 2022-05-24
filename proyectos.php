@@ -46,16 +46,16 @@
               <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">YMCA</a></li>
               <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">GLISAC</a></li>
               <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">TONDERO</a></li>
-              <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">PIMENTEL</a></li>
-              <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">IBT Group</a></li>
+              <li><a href="#" data-isotope-filter="Type 5" data-isotope-group="gallery">PIMENTEL</a></li>
+              <li><a href="#" data-isotope-filter="Type 6" data-isotope-group="gallery">IBT Group</a></li>
             </ul>
           </div>
           <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group">
-            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure">
-                  <img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/>
+                  <img src="images/ymca_foto_chico.png" alt="" width="420" height="350"/>
                   <div class="nombre-empresa-proyecto">
                     <h4 class="letra-blanca" >YMCA</h4> 
                     <img class="tamano30" src="images/ymca.png" /> 
@@ -65,7 +65,8 @@
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap">
                     <h4>
-                      <a  href="images/capacitacion-arequipa.png" data-lightgallery="item">
+                      <a class="icon" href="images/ymca_foto.png" data-lightgallery="item">
+                      <img src="images/ymca_foto.png" alt="Enfermera Ocupacional in House" width="420" height="350"/>
                       <i class="fa-solid fa-eye"></i> Enfermera Ocupacional in House
                       </a>
                     </h4>
@@ -88,9 +89,12 @@
 
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap">
-                    <h4><a  href="images/capacitacion-arequipa.png" data-lightgallery="item">
-                    <i class="fa-solid fa-eye"></i> Capacitación Online
-                    </a></h4>
+                    <h4>
+                      <a class="icon" href="images/capacitacion-arequipa.png" data-lightgallery="item">
+                      <img src="images/capacitacion-arequipa.png" alt="Capacitación Online" width="420" height="350"/>
+                      <i class="fa-solid fa-eye"></i> Capacitación Online
+                    </a>
+                    </h4>
                     
                   </div>
                   <p class="thumbnail-classic-text">Rubro: Financiera</p>
@@ -98,11 +102,11 @@
               </article>
             </div>
 
-            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2" data-wow-delay=".2s">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 3" data-wow-delay=".2s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure">
-                  <img src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350"/>
+                  <img src="images/glisac_foto_chico.png" alt="" width="420" height="350"/>
                   <div class="nombre-empresa-proyecto">
                     <h4 class="letra-blanca" >GLISAC</h4> 
                     <img class="tamano30" src="images/glisac.png" /> 
@@ -112,7 +116,8 @@
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap">
                     <h4>
-                      <a  href="images/capacitacion-arequipa.png" data-lightgallery="item">
+                      <a class="icon" href="images/glisac_foto.png" data-lightgallery="item">
+                      <img src="images/glisac_foto.png" alt="Brigadas de Emergencia" width="420" height="350"/>
                       <i class="fa-solid fa-eye"></i> Brigadas de Emergencia
                       </a>
                     </h4>
@@ -122,11 +127,11 @@
               </article>
             </div>
 
-            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 3" data-wow-delay=".3s">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4" data-wow-delay=".3s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure">
-                  <img src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350"/>
+                  <img src="images/tondero_foto_chico.png" alt="" width="420" height="350"/>
                   <div class="nombre-empresa-proyecto">
                     <h4 class="letra-blanca" >TONDERO</h4> 
                     <img class="tamano30" src="images/tondero.png" /> 
@@ -134,9 +139,11 @@
                 </div>
 
                 <div class="thumbnail-classic-caption">
+
                   <div class="thumbnail-classic-title-wrap">
                     <h4>
-                      <a  href="images/capacitacion-arequipa.png" data-lightgallery="item">
+                      <a  class="icon" href="images/tondero_foto.png" data-lightgallery="item">
+                      <img src="images/tondero_foto.png" alt="Plan de Prevención y Control Covid-19" width="420" height="350"/>
                       <i class="fa-solid fa-eye"></i> Plan de Prevención y Control Covid-19
                       </a>
                     </h4>
@@ -146,11 +153,11 @@
               </article>
             </div>
 
-            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 5" data-wow-delay=".4s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure">
-                  <img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350"/>
+                  <img src="images/pimentel_foto_chico.png" alt="" width="420" height="350"/>
                   <div class="nombre-empresa-proyecto">
                     <h4 class="letra-blanca" >PIMENTEL</h4> 
                     <img class="tamano30" src="images/pimentel.png" /> 
@@ -160,8 +167,9 @@
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap">
                     <h4>
-                      <a  href="images/capacitacion-arequipa.png" data-lightgallery="item">
-                      <i class="fa-solid fa-eye"></i> Vigilancia Médica remota
+                      <a  class="icon" href="images/pimentel_foto.png" data-lightgallery="item">
+                      <img src="images/pimentel_foto.png" alt="Vigilancia Médica remota" width="420" height="350"/>
+                      <i class="fa-solid fa-eye"></i> Vigilancia </br>Médica remota
                       </a>
                     </h4>
                   </div>
@@ -170,7 +178,7 @@
               </article>
             </div>
 
-            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1" data-wow-delay=".1s">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 6" data-wow-delay=".5s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure">
@@ -184,7 +192,8 @@
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap">
                     <h4>
-                      <a  href="images/ibt_foto_chico.jpg" data-lightgallery="item">
+                      <a  class="icon" href="images/ibt_foto.png" data-lightgallery="item">
+                      <img src="images/ibt_foto.png" alt="Auditoría y Vigilancia Médica" width="420" height="350"/>
                       <i class="fa-solid fa-eye"></i> Auditoría y Vigilancia Médica
                       </a>
                     </h4>

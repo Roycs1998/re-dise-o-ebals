@@ -32,7 +32,7 @@
                 <div class="container">
                   <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">CAPACITACIÓN SOBRE SEGURIDAD Y SALUD OCUPACIONAL</h1>
                   <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Te formamos con los mejores profesionales sobre seguridad y salud ocupacional.</p>
-                  <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+                  <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Contáctanos</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,8 @@
               <div class="swiper-slide-caption section-md">
                 <div class="container">
                   <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Award-Winning Software</h1>
-                  <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">The software solutions developed by our company have been numerously awarded for usability and innovative features.</p><a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+                  <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">The software solutions developed by our company have been numerously awarded for usability and innovative features.</p>
+                  <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Contáctanos</a>
                 </div>
               </div>
             </div>
@@ -205,7 +206,7 @@
                   <div class="col-sm-4"><i class="icon_grande fa-solid fa-book"></i>
                     <div class="group-sm group ">
                     
-                      <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal">Nuestro Brochure</a>
+                      <a class="button button-primary button-ujarak" href="#modalBrochure" data-toggle="modal">Nuestro Brochure</a>
                     </div>
                   </div>
 
@@ -230,48 +231,6 @@
       <!-- Page Footer-->
       <?php include('php/footer.php');?>
 
-      
-      <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Contact Us</h4>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            </div>
-            <div class="modal-body">
-              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
-                <div class="row row-14 gutters-14">
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-modal-name">Your Name</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-email" type="email" name="email" data-constraints="@Email @Required">
-                      <label class="form-label" for="contact-modal-email">E-mail</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-phone" type="text" name="phone" data-constraints="@Numeric">
-                      <label class="form-label" for="contact-modal-phone">Phone</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-modal-message">Message</label>
-                      <textarea class="form-input textarea-lg" id="contact-modal-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>

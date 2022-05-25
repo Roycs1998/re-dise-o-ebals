@@ -2582,6 +2582,7 @@ img {
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
+	border-radius: 5px;
 }
 
 .img-responsive {
@@ -2938,7 +2939,7 @@ hr {
 }
 
 .button-primary, .button-primary:focus {
-	color: #ffffff;
+	color: #ffffff !important;
 	background-color: var(--thm-claro);
 	border-color: var(--thm-claro);
 }
@@ -2967,7 +2968,7 @@ hr {
 }
 
 .button-primary.button-pipaluk:hover, .button-primary.button-pipaluk:active {
-	color: var(--thm-fuerte);
+	color: var(--thm-fuerte) !important;
 	background: transparent;
 }
 
@@ -6627,6 +6628,7 @@ textarea.textarea-lg {
 .thumbnail-classic {
 	text-align: left;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .thumbnail-classic-figure {

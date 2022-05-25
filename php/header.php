@@ -10,17 +10,18 @@
                     <!-- RD Navbar Toggle-->
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/3logo-ebals-155.png" alt="" width="223" height="50"/></a></div>
+                    <div class="rd-navbar-brand"><a class="brand" href="inicio"><img src="images/3logo-ebals-155.png" alt="" width="223" height="50"/></a></div>
                   </div>
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap">
                       <!-- RD Navbar Share-->
                       <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
                         <ul class="list-inline rd-navbar-share-list">
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
+
+                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" onclick="window.open('https://www.facebook.com/ebalsconsultoressst', '_blank');" href="https://www.facebook.com/ebalsconsultoressst" target="_blank"></a></li>
+                          <li class="rd-navbar-share-list-item"><a class="fa-brands fa-linkedin-in" onclick="window.open('https://www.linkedin.com/company/ebalsconsultoria/', '_blank');" href="https://www.linkedin.com/company/ebalsconsultoria/" target="_blank"></a></li>
+                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-youtube" onclick="window.open('https://www.youtube.com/channel/UCbidtbuBCL4x7oI-H5yAxJg', '_blank');" href="https://www.youtube.com/channel/UCbidtbuBCL4x7oI-H5yAxJg" target="_blank"></a></li>
+                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" onclick="window.open('https://www.instagram.com/ebals_consultores/', '_blank');" href="https://www.instagram.com/ebals_consultores/" target="_blank"></a></li>                          
                         </ul>
                       </div>
                       <ul class="rd-navbar-nav despliega">

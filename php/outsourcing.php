@@ -32,7 +32,7 @@
               </div>
 
               <div class="col-lg-12 col-xl-12">
-                <h3>Apoyo realizando las siguientes tareas:</h3>
+                <h3>Te apoyamos realizando las siguientes tareas:</h3>
 
                 <dic class="row">
 

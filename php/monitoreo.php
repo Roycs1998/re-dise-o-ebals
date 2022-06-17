@@ -32,8 +32,7 @@
                             <li class="active">Monitoreos Biológicos</li>
                             <li class="active">Monitoreos Psicosociales</li>
                             <li class="active">Monitoreos Químicos</li>
-                            <li class="active">Monitoreos Ergonómicos</li>
-                          
+                            <li class="active">Monitoreos Ergonómicos</li>            
               </ul>
             </div>
             <div class="col-md-7 col-lg-5 col-xl-5 text-lg-center wow fadeInUp"><img src="<?php echo $fila[2];?>" alt="" width="415" height="592"/>
@@ -43,8 +42,6 @@
 
         </div>
     </section>
-
-
 
     <!-- Pricing-->
     <section class="section section-sm section-bottom-70 section-fluid bg-default">
@@ -90,55 +87,5 @@
         </div>
     </section>
 
-      <!-- You dream — we embody-->
-      <section class="section section-sm bg-default text-md-left">
-        <div class="container">
-          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-            <div class="col-lg-12 col-xl-12 wow fadeInLeft">
-              <h2>Aprende más sobre Monitoreo Ocupacional</h2>
-              <!-- Bootstrap tabs-->
-              <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
-                <!-- Nav tabs-->
-                <ul class="nav nav-tabs letra-20px" >
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link active" href="#tabs-6-1" data-toggle="tab">Monitoreo Ocupacional</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link" href="#tabs-6-2" data-toggle="tab">Agente Ocupacional</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link" href="#tabs-6-3" data-toggle="tab">Monitoreo en salud ocupacional</a></li>
 
-                </ul>
-                <!-- Tab panes-->
-                <div class="tab-content">
-                  <div class="tab-pane fade show active" id="tabs-6-1">
-                    <h5 class="font-weight-normal">¿Cuáles son los monitoreos ocupacionales?</h5>
-                    <p>Consiste en reconocer, evaluar y controlar aquellos factores de riesgo que pueden producir enfermedades ocupacionales, 
-                      mediante el Monitoreo Ocupacional con resultados cuantitativos que dimensionan la exposición a los agentes Físicos, Químicos Biológicos, 
-                      Ergonómicos y Psicosociales, teniendo como 
-                      objetivo cuidar y mejorar la salud física, mental, de los trabajadores en sus puestos de trabajo, teniendo resultados positivos en la empresa.</p>
-                    
-                    </div>
-                  <div class="tab-pane fade" id="tabs-6-2">
-                    <h5 class="font-weight-normal">¿Cuáles son los agentes ocupacionales?</h5>
-                    <p>Según los agentes de riesgo ocupacional se define como un conjunto de elementos de tipos químicos, físicos, 
-                      biológicos y ergonómicos que están presentes en el ambiente laboral.
-                    </p>  
-                    
-                    <h5 class="font-weight-normal">¿Cuáles son los agentes ocupacionales fisicos?</h5>
-                    <p>Son manifestaciones de la energía que pueden afectar la salud de los Trabajadores, en este grupo se consideran los 
-                      ruidos ,iluminación, vibración, temperaturas extremas, etc.
-                    </p>  
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-3">
-                    <h5 class="font-weight-normal">¿Qué es un monitoreo biológico en salud ocupacional?</h5>
-                    <p>Monitorización es el procedimiento de medición e interpretación de parámetros biológicos y ambientales, mientras que monitoreo biológico es 
-                      el procedimiento de salud ocupacional por el cual se mide un tóxico potencial, sus metabolitos o un efecto 
-                      químico no deseado en una muestra biológica
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
 

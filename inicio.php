@@ -64,12 +64,13 @@
             </div>
             <div class="col-lg-7 col-xl-6">
               <div class="row row-30">
-                <div class="col-sm-6 wow fadeInRight">
-                  <article class="box-icon-modern box-icon-modern-custom">
-                    <div>
-                      <h3 class="box-icon-modern-big-title">¿Qué ofrecemos?</h3>
-                      <div class="box-icon-modern-decor"></div><a class="button button-primary button-ujarak" href="#">Ver todos</a>
-                    </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
+                  <article class="box-icon-modern box-icon-modern-2">
+                    <div class="box-icon-modern-icon linearicons-headset"></div>
+                    <h5 class="box-icon-modern-title"><a href="#">Sistema de</br>Gestión</a></h5>
+                    <div class="box-icon-modern-decor"></div>
+                   
+                    <a class="button button-primary button-ujarak" href="#">Ver más</a>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
@@ -77,23 +78,26 @@
                     <div class="box-icon-modern-icon linearicons-phone-in-out"></div>
                     <h5 class="box-icon-modern-title"><a href="#">Seguridad y salud en el trabajo</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Actividad encaminada a promover y proteger la salud de los empleados.</p>
+                   
+                    <a class="button button-primary button-ujarak" href="#">Ver más</a>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
                   <article class="box-icon-modern box-icon-modern-2">
                     <div class="box-icon-modern-icon linearicons-headset"></div>
-                    <h5 class="box-icon-modern-title"><a href="#">Salud Ocupacional</a></h5>
+                    <h5 class="box-icon-modern-title"><a href="#">Salud</br> Ocupacional</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Aumentar la productividad laboral y la confianza de los trabajadores hacia la empresa.</p>
+                   
+                    <a class="button button-primary button-ujarak" href="#">Ver más</a>
                   </article>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
                   <article class="box-icon-modern box-icon-modern-2">
                     <div class="box-icon-modern-icon linearicons-outbox"></div>
-                    <h5 class="box-icon-modern-title"><a href="#">Moniterio Ocupacional</a></h5>
+                    <h5 class="box-icon-modern-title"><a href="#">Monitoreo</br> Ocupacional</a></h5>
                     <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Mejorar el clima laboral aumenta la eficiencia de los procesos y trabajadores.</p>
+                   
+                    <a class="button button-primary button-ujarak" href="#">Ver más</a>
                   </article>
                 </div>
               </div>
@@ -232,11 +236,6 @@
       <?php include('php/footer.php');?>
 
     </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
+  <?php include('php/footer-link.php');?>  
   </body>
 </html>

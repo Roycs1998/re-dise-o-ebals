@@ -343,8 +343,15 @@ html p a:hover {
 	color: var(--thm-blanco) !important;
 }
 
+.servicios_estilo .row{
+	display: flex;
+	align-content: center;
+    align-items: center;
+	padding: 15px;
+}
+
 .tamano30{
-	max-width: 39%;
+	max-width:100px;
 }
 
 /*
@@ -426,7 +433,7 @@ h3,
 h4,
 .heading-4 {
 	font-size: 21px;
-	line-height: 1.71429;
+	line-height: 1.9;
 }
 
 h5,
@@ -1324,6 +1331,10 @@ a[href*='tel'], a[href*='mailto'] {
 .alinear-centro{
 	text-align: -webkit-center;
 }
+.caja-contacto > h4{
+	text-align: left;
+}
+
 .caja-contacto > h3 {   
 	padding-bottom: 10px;
     float: left;

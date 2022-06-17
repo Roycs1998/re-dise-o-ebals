@@ -46,35 +46,53 @@
               <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             </div>
             <div class="modal-body">
-              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" action="bat/enviar-datos.php">
-                <div class="row row-14 gutters-14">
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-modal-name">Nombres</label>
+              <form id="contact-form" class="rd-form rd-form-variant-2 rd-mailform"  method="post" action="bat/enviar-datos.php">
+                    <div class="row row-14 gutters-14">
+                      <div class="col-md-4">
+                        <div class="form-wrap">
+                          <input class="form-input" id="contact-your-name-2" type="text" name="name" data-constraints="@Required">
+                          <label class="form-label" for="contact-your-name-2">Nombres</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-wrap">
+                          <input class="form-input" id="contact-email-2" type="email" name="email" data-constraints="@Email @Required">
+                          <label class="form-label" for="contact-email-2">Email</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-wrap">
+                          <input class="form-input" id="contact-phone-2" type="text" name="phone" data-constraints="@Numeric">
+                          <label class="form-label" for="contact-phone-2">Celular</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-wrap">
+                          <input class="form-input" id="contact-ruc-2" type="text" name="ruc" data-constraints="@Required">
+                          <label class="form-label" for="contact-ruc-2">RUC</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-wrap">
+                          <input class="form-input" id="contact-nombre_empresa-2" type="text" name="nombre_empresa" data-constraints="@Required">
+                          <label class="form-label" for="contact-nombre_empresa-2">Nombre de empresa</label>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="form-wrap">
+                          <label class="form-label" for="contact-message-2">Mensaje</label>
+                          <textarea class="form-input textarea-lg" id="contact-message-2" name="message" data-constraints="@Required"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="h-captcha" data-sitekey="2d64e188-b165-4183-a1c4-39cd9ad3ff46"></div>
+                      </div> 
+
                     </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-email" type="email" name="email" data-constraints="@Email @Required">
-                      <label class="form-label" for="contact-modal-email">Correo Electrónico</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-phone" type="text" name="phone" data-constraints="@Numeric">
-                      <label class="form-label" for="contact-modal-phone">Celular</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-modal-message">Mensaje</label>
-                      <textarea class="form-input textarea-lg" id="contact-modal-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <button class="button button-primary button-pipaluk" type="submit">Enviar mensaje</button>
+                    <button class="button button-primary button-pipaluk" type="submit">Enviar</button>
               </form>
+              <p class="form-message"></p>
             </div>
           </div>
         </div>

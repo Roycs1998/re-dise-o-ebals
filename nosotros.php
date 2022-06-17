@@ -144,11 +144,6 @@
       <?php include('php/footer.php');?>
 
     </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
+  <?php include('php/footer-link.php');?>  
   </body>
 </html>

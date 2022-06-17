@@ -34,16 +34,13 @@
     <section class="section section-sm section-fluid bg-default text-left" id="projects">
       <div class="container">
         <div class="row row-30 justify-content-center">
-         <div class="col-lg-8 col-xl-8">
+          <div class="col-lg-12 col-xl-12">
                   <article class="title-classic">
                   <div class="title-classic-title">
                     <h3>SOLICITA TU COTIZACIÓN</h3>
                   </div>
-                  <div class="title-classic-text">
-                    <p>Llena nuestro formulario para enviarte una propuesta detallada del servicio.</p>
-                  </div>
                   </article>
-                <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/enviar-datos.php">
+                <form id="contact-form" class="rd-form rd-form-variant-2 rd-mailform"  method="post" action="bat/enviar-datos.php">
                   <div class="row row-14 gutters-14">
                     <div class="col-md-4">
                       <div class="form-wrap">
@@ -63,17 +60,43 @@
                         <label class="form-label" for="contact-phone-2">Celular</label>
                       </div>
                     </div>
+                    <div class="col-md-6">
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-ruc-2" type="text" name="ruc" data-constraints="@Required">
+                        <label class="form-label" for="contact-ruc-2">RUC</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-nombre_empresa-2" type="text" name="nombre_empresa" data-constraints="@Required">
+                        <label class="form-label" for="contact-nombre_empresa-2">Nombre de empresa</label>
+                      </div>
+                    </div>
+
                     <div class="col-12">
                       <div class="form-wrap">
                         <label class="form-label" for="contact-message-2">Mensaje</label>
                         <textarea class="form-input textarea-lg" id="contact-message-2" name="message" data-constraints="@Required"></textarea>
                       </div>
                     </div>
+
+                    <div class="col-12">
+                      <div class="h-captcha" data-sitekey="2d64e188-b165-4183-a1c4-39cd9ad3ff46"></div>
+                    </div> 
+
                   </div>
                   <button class="button button-primary button-pipaluk" type="submit">Enviar</button>
                 </form>
+                <p class="form-message"></p>
           </div>
-          <div class="col-md-4 col-lg-4 col-xl-4  wow fadeInUp">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-6  wow fadeInUp">
                 <div class="container">
                   <div class="row row-30 justify-content-center">
                     <div class="col-sm-12 col-md-12 col-lg-12 caja-contacto">
@@ -105,26 +128,20 @@
                     </div>
                   </div>
                 </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <div class="google-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.3045516563077!2d-77.02858800000001!3d-12.097209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c868bd340ee1%3A0x14e3b337b0d072f1!2sC.%20las%20Camelias%20790%2C%20San%20Isidro%2015046!5e0!3m2!1ses-419!2spe!4v1653337814802!5m2!1ses-419!2spe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
 
-    <section class="section">
-        <div class="google-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.3045516563077!2d-77.02858800000001!3d-12.097209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c868bd340ee1%3A0x14e3b337b0d072f1!2sC.%20las%20Camelias%20790%2C%20San%20Isidro%2015046!5e0!3m2!1ses-419!2spe!4v1653337814802!5m2!1ses-419!2spe"
-           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+          </div>
     </section>
 
       <!-- Page Footer-->
       <?php include('php/footer.php');?>
     </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
+  <?php include('php/footer-link.php');?>              
   </body>
 </html>
